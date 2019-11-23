@@ -5,10 +5,10 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color> -->
 
-    <color name="colorPrimary">#FFEB3B</color>
-    <color name="colorPrimaryDark">#FBC02D</color>
+    <color name="colorPrimary">#448aff</color>
+    <color name="colorPrimaryDark">#005ecb</color>
     <color name="primary_light">#FFF9C4</color>
-    <color name="colorAccent">#FFC107</color>
+    <color name="colorAccent">#83b9ffgit </color>
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#757575</color>
     <color name="icons">#212121</color>
