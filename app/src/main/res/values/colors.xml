@@ -5,6 +5,7 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color> -->
 
+<<<<<<< HEAD
 
 
 
@@ -12,6 +13,12 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="primary_light">#C5CAE9</color>
     <color name="colorAccent">#9E9E9E</color>
+=======
+    <color name="colorPrimary">#448aff</color>
+    <color name="colorPrimaryDark">#005ecb</color>
+    <color name="primary_light">#FFF9C4</color>
+    <color name="colorAccent">#83b9ffgit </color>
+>>>>>>> dcb03d40e8f17d48c9b1050e7043ef1b3c7ef4ba
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#757575</color>
     <color name="icons">#FFFFFF</color>
