@@ -1,0 +1,9 @@
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:+'
+    implementation 'com.google.android.material:material:+'
+    implementation 'androidx.appcompat:appcompat:+'
+    implementation 'androidx.constraintlayout:constraintlayout:+'
+    implementation 'androidx.navigation:navigation-fragment:+'
+    implementation 'androidx.navigation:navigation-ui:+'
+    implementation 'androidx.lifecycle:lifecycle-extensions:+'
+}
