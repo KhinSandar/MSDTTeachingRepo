@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eaa5d78-142c-4f28-a32f-498389093344" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../appAKM/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/androidTest/java/com/batchone/msdtapp/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/gallery/GalleryFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/gallery/GalleryViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/home/HomeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/home/HomeViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/send/SendFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/send/SendViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/share/ShareFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/share/ShareViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/slideshow/SlideshowFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/slideshow/SlideshowViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/tools/ToolsFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/java/com/batchone/msdtapp/ui/tools/ToolsViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/drawable/ic_menu_camera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/drawable/ic_menu_gallery.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/drawable/ic_menu_manage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/drawable/ic_menu_send.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/drawable/ic_menu_share.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/drawable/ic_menu_slideshow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/app_bar_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/fragment_gallery.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/fragment_send.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/fragment_share.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/fragment_slideshow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/fragment_tools.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/layout/nav_header_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/menu/main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/values-v21/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appAKM/src/test/java/com/batchone/msdtapp/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
