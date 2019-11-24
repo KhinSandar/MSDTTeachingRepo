@@ -51,8 +51,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="67dp"
-        android:layout_height="38dp"
+        android:layout_width="85dp"
+        android:layout_height="29dp"
         android:layout_marginStart="16dp"
         android:text="Singapore"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText2"
@@ -60,21 +60,26 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="162dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="112dp"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Lacia M Typ 240"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Header" />
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/Header"
+        app:layout_constraintVertical_bias="0.19999999" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="126dp"
+        android:layout_height="34dp"
         android:layout_marginStart="16dp"
-        android:text="TextView"
+        android:text="@string/action_settings"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText3"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -82,14 +87,15 @@
         android:id="@+id/editText3"
         android:layout_width="162dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="232dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/action_settings"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="@+id/editText2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editText2"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
-        app:layout_constraintVertical_bias="0.12" />
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <ImageView
         android:id="@+id/smile"
@@ -107,8 +113,8 @@
         android:id="@+id/barrier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:barrierDirection="left"
-        app:constraint_referenced_ids="editText3,editText2"
+        app:barrierDirection="right"
+        app:constraint_referenced_ids="textView2,textView3"
         tools:layout_editor_absoluteX="411dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
