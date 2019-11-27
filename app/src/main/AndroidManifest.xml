@@ -30,12 +30,26 @@
         <activity android:name=".MedipickLoginActivity"
             android:label="MedipickLoginActivity"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity android:name=".MediPickMenuActivity"
+            android:label="Menu"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+
+        <activity android:name=".RocketActivity"
+            android:label="Rocket"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
