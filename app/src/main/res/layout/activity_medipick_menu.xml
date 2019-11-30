@@ -2,76 +2,91 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_login_background">
-
+    android:background="@drawable/gradient_login_background"
+    android:orientation="vertical">
 
 
     <Button
         android:id="@+id/btnPharmacists"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/Login"
         android:drawableTop="@drawable/ic_pharmacist"
         android:text="Pharmacists"
         android:textColor="#FFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnProfile"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnOrders"
         app:layout_constraintTop_toBottomOf="@+id/btnPrescriptionons" />
 
     <Button
         android:id="@+id/btnProfile"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/Login"
         android:drawableTop="@drawable/ic_avatar"
         android:text="Profile"
         android:textColor="#FFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPillReminder"
+        app:layout_constraintEnd_toStartOf="@+id/btnCharts"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOrders" />
 
     <Button
         android:id="@+id/btnCharts"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/Login"
         android:drawableTop="@drawable/ic_chat"
         android:text="Chats"
         android:textColor="#FFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPillReminder"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnProfile"
         app:layout_constraintTop_toBottomOf="@+id/btnPharmacists" />
 
     <Button
         android:id="@+id/btnPrescriptionons"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/Login"
         android:drawableTop="@drawable/ic_medical_prescription"
         android:text="Prescriptions"
         android:textColor="#FFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnOrders"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnOrderNow"
         app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
 
     <Button
         android:id="@+id/btnOrderNow"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="@color/Login"
@@ -79,30 +94,33 @@
         android:text="Order Now"
         android:textColor="#FFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnOrders"
+        app:layout_constraintEnd_toStartOf="@+id/btnPrescriptionons"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewHeader" />
 
     <Button
         android:id="@+id/btnPillReminder"
         android:layout_width="0dp"
-        android:layout_height="140dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/Login"
         android:drawableTop="@drawable/ic_reminder"
         android:text="Pill Reminder"
         android:textColor="#FFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnProfile" />
 
     <Button
         android:id="@+id/btnOrders"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:background="@color/Login"
@@ -110,6 +128,8 @@
         android:text="Orders"
         android:textColor="#FFF"
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnProfile"
+        app:layout_constraintEnd_toStartOf="@+id/btnPharmacists"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOrderNow" />
 
@@ -118,6 +138,8 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
+        android:background="#BA0D11"
+        android:drawableRight="@drawable/ic_menu"
         android:text="Main Menu"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
@@ -125,9 +147,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:drawableRight="@drawable/ic_menu"
-        android:background="#BA0D11"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

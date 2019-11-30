@@ -50,6 +50,11 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".FoodLoginActivity"
+            android:label="Food"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>
