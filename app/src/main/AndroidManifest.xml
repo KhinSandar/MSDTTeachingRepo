@@ -16,7 +16,15 @@
 
         </activity>
 
-        <activity android:name=".ui.MedipickUIActivity">
+        <activity
+            android:name=".ui.MedipickUIActivity">
+        </activity>
+
+        <activity
+            android:name=".ui.SpaceshipActivity">
+        </activity>
+
+        <activity android:name=".ui.BurgerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
