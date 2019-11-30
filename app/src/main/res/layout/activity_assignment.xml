@@ -4,31 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".assignment">
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[19]" />
+    tools:context=".assignment"
+    android:background="@drawable/food">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="451dp"
+        android:layout_width="wrap_content"
         android:layout_height="32dp"
         android:text="Share A "
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="516dp" />
+        tools:layout_editor_absoluteY="518dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="424dp"
+        android:layout_width="wrap_content"
         android:layout_height="49dp"
         android:text="Taste of Home"
         app:layout_constraintEnd_toEndOf="parent"
