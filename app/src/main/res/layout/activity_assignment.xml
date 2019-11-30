@@ -11,9 +11,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="32dp"
+        android:autoText="false"
         android:text="Share A "
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="518dp" />
 
@@ -22,6 +26,9 @@
         android:layout_width="wrap_content"
         android:layout_height="49dp"
         android:text="Taste of Home"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,16 +38,21 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Signup"
         app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="611dp" />
+        tools:layout_editor_absoluteY="611dp"
+        android:background="@drawable/rounded_corner_left_button"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:background="@drawable/rounded_corner_right_button"
+
+        android:text="Signup"
+        android:textColor="@color/primary_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
