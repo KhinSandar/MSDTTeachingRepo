@@ -10,48 +10,47 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".CodeLabActivity"
-            android:label="@string/title_activity_code_lab"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
-        <activity android:name=".LogInActivity"
-            android:label="CodeLabActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-
-        </activity>
-
-        <activity android:name=".MedipickLoginActivity"
-            android:label="MedipickLoginActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
-        <activity android:name=".MediPickMenuActivity"
-            android:label="Menu"
-            android:theme="@style/AppTheme.NoActionBar">
-
-
-        </activity>
-
-        <activity android:name=".RocketActivity"
-            android:label="Rocket"
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
 
-        <activity android:name=".FoodLoginActivity"
+        </activity>
+        <activity
+            android:name=".CodeLabActivity"
+            android:label="@string/title_activity_code_lab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".LogInActivity"
+            android:label="CodeLabActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MedipickLoginActivity"
+            android:label="MedipickLoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MediPickMenuActivity"
+            android:label="Menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".RocketActivity"
+            android:label="Rocket"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".FoodLoginActivity"
             android:label="Food"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".FashionActivity"
+            android:label="Fashion"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>

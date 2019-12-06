@@ -7,8 +7,8 @@
     <color name="colorAccent">#D81B60</color> -->
 
 
-    <color name="colorPrimary">#9C27B0</color>
-    <color name="colorPrimaryDark">#7B1FA2</color>
+    <color name="colorPrimary">#35455A</color>
+    <color name="colorPrimaryDark">#35455A</color>
    <color name="primary_light">#FFF9C4</color>
     <color name="colorAccent">#CB0C2C</color>
     <color name="primary_text">#212121</color>
@@ -17,7 +17,7 @@
     <color name="divider">#BDBDBD</color>
     <color name="Login">#EC241D</color>
     <color name="Signup">#EF4B46</color>
-
+    <color name="Transparent">#00000000</color>
 
 
 </resources>
