@@ -1,7 +1,9 @@
-package com.batchone.msdtapp;
+package com.batchone.msdtapp.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.batchone.msdtapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -38,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Intent i = new Intent(getApplicationContext(), MainTabActivity.class);
+                i.putExtra("PersonID", "1");
+                startActivity(i);
+                //finish();
+
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
