@@ -1,6 +1,7 @@
 package com.batchone.msdtapp.ui;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import com.batchone.msdtapp.R;
@@ -26,7 +27,7 @@ import android.view.Menu;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
-
+    public static final String MY_PREFS_NAME = "MyPrefsFile";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,16 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        // MY_PREFS_NAME - a static String variable like:
+        //public static final String MY_PREFS_NAME = "MyPrefsFile";
+        SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+        editor.putString("name", "KSD");
+        editor.putInt("id", 12);
+        editor.apply();
+
+
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 i.putExtra("PersonID", "1");
                 startActivity(i);
                 //finish();
+
+
 
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
