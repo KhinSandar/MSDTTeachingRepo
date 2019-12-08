@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_contact">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/user"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="162dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="32dp"
+        android:text="Jimmy - Son"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="427dp"
+        android:layout_height="417dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bg_contack_white" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="352dp"
+        android:layout_height="62dp"
+        android:background="@drawable/texts_bg"
+        android:drawableLeft="@drawable/ic_call_answer"
+        android:drawablePadding="20dp"
+        android:letterSpacing="100"
+        android:lineSpacingExtra="8sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="20dp"
+        android:text="794699987\nMobile"
+        android:textAlignment="viewStart"
+        android:textColor="#D0070707"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="352dp"
+        android:layout_height="62dp"
+        android:background="@drawable/texts_bg"
+        android:drawableLeft="@drawable/ic_call_answer"
+        android:drawablePadding="20dp"
+        android:letterSpacing="100"
+        android:lineSpacingExtra="8sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="20dp"
+        android:text="794699987\nMobile"
+        android:textAlignment="viewStart"
+        android:textColor="#D0070707"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
