@@ -1,6 +1,7 @@
 package com.batchone.msdtapp.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 public class Assignment1 extends AppCompatActivity {
